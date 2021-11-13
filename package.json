@@ -1,0 +1,31 @@
+{
+  "name": "js-hw-01-cli-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximostrovskiy86/node-js-hw-01-cli-applications.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximostrovskiy86/node-js-hw-01-cli-applications/issues"
+  },
+  "homepage": "https://github.com/maximostrovskiy86/node-js-hw-01-cli-applications#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "import": "^0.0.6",
+    "shortid": "^2.2.16"
+  }
+}
